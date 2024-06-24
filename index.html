@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,11 +6,13 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.svg" />
     <title>Single-page design portfolio</title>
-    <link rel="stylesheet" href="./animation.css" />
+    <!-- links main.css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- links media.css file -->
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    
+    <!-- SITE-HEADER-HERO -->
     <div class="site-header-hero">
       <header class="site-header">
         <div class="container d-flex">
@@ -30,7 +31,9 @@
         </p>
       </div>
     </div>
-    
+    <!-- SITE-HEADER-HERO -->
+
+    <!-- SITE-MAIN -->
     <main class="site-main">
       <section class="skills">
         <div class="container">
@@ -86,6 +89,42 @@
           </div>
         </div>
       </section>
+      <section class="about-me">
+        <div class="container d-flex about-sm">
+          <div class="about-me__image ">
+            <img src="./assets/image-amy.webp" alt="About me image" class="image-item">
+          </div>
+          <div class="about-me__desc">
+            <h2 class="about-me__headline">  I’m Amy, and I’d love to work on your next project</h2>
+            <p class="about-me__text">
+              I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+              to complete mobile apps. I’m also handy with a camera!</p>
+              <a href="#!" class="about-me__btn btn-2"> Free Consultation</a>
+          </div>
+        </div>
+      </section>
     </main>
+    <section class="my-work">
+      <h2 class="work-headline">My Work</h2>
+      <div class="work-carousel owl-carousel">
+        <img src="./assets/image-slide-3.jpg" alt="Image one" class="work-carousel__image">
+        <img src="./assets/image-slide-2.jpg" alt="Image two" class="work-carousel__image">
+        <img src="./assets/image-slide-1.jpg" alt="Image three" class="work-carousel__image">
+        <img src="./assets/image-slide-4.jpg" alt="Image four" class="work-carousel__image">
+        <img src="./assets/image-slide-5.jpg" alt="Image five" class="work-carousel__image">
+
+      </div>
+    </section>
+  </main>
+  <!-- SITE-MAIN -->
+
+
+
+
+  <!-- owl carousel  -->
+  <script src="./js/jquery.js"></script>
+  <script src="./libs/OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
+  <script src="./js/main.js"></script>
+    <!-- SITE-MAIN -->
   </body>
 </html>
