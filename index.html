@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.svg" />
+    <!-- link owl-carousel css file -->
+    <link rel="stylesheet" href="./libs/OwlCarousel2-develop/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/OwlCarousel2-develop/dist/assets/owl.theme.default.min.css">
+    <!-- link icon -->
+    <link rel="stylesheet" href="./css/all.min.css">
     <title>Single-page design portfolio</title>
     <!-- links main.css file -->
     <link rel="stylesheet" href="./css/main.css" />
@@ -103,28 +108,58 @@
           </div>
         </div>
       </section>
+
+      <section class="my-work">
+        <h2 class="work-headline">My Work</h2>
+        <div class="work-carousel owl-carousel">
+          <img src="./assets/image-slide-3.jpg" alt="Image one" class="work-carousel__image">
+          <img src="./assets/image-slide-2.jpg" alt="Image two" class="work-carousel__image">
+          <img src="./assets/image-slide-1.jpg" alt="Image three" class="work-carousel__image">
+          <img src="./assets/image-slide-4.jpg" alt="Image four" class="work-carousel__image">
+          <img src="./assets/image-slide-5.jpg" alt="Image five" class="work-carousel__image">
+        </div>
+        <div class="carousel-button">
+          <button class="carousel-btn">
+            <i class="carousel-icon fas fa-arrow-left"> </i>
+          </button>
+          <button class="carousel-btn">
+            <i class="carousel-icon fas fa-arrow-right"> </i>
+          </button>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="contact-content">
+            <div class="contact-desc">
+              <h3 class="contact-title">Book a call with me</h3>
+              <p class="contact-text">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+            </div>
+            <a href="#!" class="contact-btn btn-2">Free Consultation</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <section class="my-work">
-      <h2 class="work-headline">My Work</h2>
-      <div class="work-carousel owl-carousel">
-        <img src="./assets/image-slide-3.jpg" alt="Image one" class="work-carousel__image">
-        <img src="./assets/image-slide-2.jpg" alt="Image two" class="work-carousel__image">
-        <img src="./assets/image-slide-1.jpg" alt="Image three" class="work-carousel__image">
-        <img src="./assets/image-slide-4.jpg" alt="Image four" class="work-carousel__image">
-        <img src="./assets/image-slide-5.jpg" alt="Image five" class="work-carousel__image">
-
-      </div>
-    </section>
-  </main>
-  <!-- SITE-MAIN -->
-
-
-
-
-  <!-- owl carousel  -->
-  <script src="./js/jquery.js"></script>
-  <script src="./libs/OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
-  <script src="./js/main.js"></script>
     <!-- SITE-MAIN -->
+
+    <!-- SITE-FOOTER -->
+<footer class="site-footer">
+  <div class="container d-flex">
+    <a href="./index.html" class="site-logo logo">
+      <img src="./assets/logo.svg" alt="Site logo" class="logo-image" />
+    </a>
+
+    <a href="#!" class="site-footer__call btn-1">Free Consultation</a>
+  </div>
+</footer>
+    <!-- SITE-FOOTER -->
+
+
+
+
+    <!-- owl carousel  -->
+    <script src="./js/jquery.js"></script>
+    <script src="./libs/OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
